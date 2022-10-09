@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  @apply bg-gray-50;
+  @apply bg-yellow-500;
+}
+
+@layer base {
+  h1 {
+    @apply text-4xl my-3;
+  }
+
+  h2 {
+    @apply text-3xl my-2;
+  }
+
+  h3 {
+    @apply text-2xl my-1;
+  }
+
+  .text-mega-xl {
+    font-size: 5rem;
+    line-height: 1;
+  }
+
+  @media (min-width: 640px) {
+    .text-mega-xl {
+      font-size: 12vw;
+      line-height: 1;
+    }
+  }
+
+  p {
+    a {
+      @apply underline;
+    }
+  }
+}
+
+@layer components {
+  .my-container {
+    @apply container w-full md:max-w-3xl mx-auto md:px-6;
+  }
+
+  .navbar-item {
+    @apply inline-block text-gray-800 opacity-70 no-underline hover:opacity-100 py-2 px-4;
+  }
+}

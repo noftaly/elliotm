@@ -1,4 +1,12 @@
-<svg width="2500" height="977" viewBox="0 0 256 100" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin meet">
-	<path d="M0 0v85.498h71.166V99.83H128V85.498h128V0H0z" fill="#CB3837" />
-	<path d="M42.502 14.332h-28.17v56.834h28.17V28.664h14.332v42.502h14.332V14.332H42.502zM85.498 14.332v71.166h28.664V71.166h28.17V14.332H85.498zM128 56.834h-13.838v-28.17H128v28.17zM184.834 14.332h-28.17v56.834h28.17V28.664h14.332v42.502h14.332V28.664h14.332v42.502h14.332V14.332h-57.328z" fill="#FFF" />
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="750" height="750" viewBox="0 0 1000 1000" xml:space="preserve">
+	<g transform="matrix(0.4 0 0 0.4 499.86 461.44)">
+		<g style="">
+			<g transform="matrix(9.77 0 0 9.77 0.56 -0.83)">
+				<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(203,56,55); fill-rule: nonzero; opacity: 1;" transform=" translate(-128, -49.91)" d="M 0 0 v 85.498 h 71.166 V 99.83 H 128 V 85.498 h 128 V 0 H 0 z" stroke-linecap="round" />
+			</g>
+			<g transform="matrix(9.77 0 0 9.77 2.91 -0.89)">
+				<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;" transform=" translate(-128.25, -49.91)" d="M 42.502 14.332 h -28.17 v 56.834 h 28.17 V 28.664 h 14.332 v 42.502 h 14.332 V 14.332 H 42.502 z M 85.498 14.332 v 71.166 h 28.664 V 71.166 h 28.17 V 14.332 H 85.498 z M 128 56.834 h -13.838 v -28.17 H 128 v 28.17 z M 184.834 14.332 h -28.17 v 56.834 h 28.17 V 28.664 h 14.332 v 42.502 h 14.332 V 28.664 h 14.332 v 42.502 h 14.332 V 14.332 h -57.328 z" stroke-linecap="round" />
+			</g>
+		</g>
+	</g>
 </svg>

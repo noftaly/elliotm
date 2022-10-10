@@ -7,20 +7,6 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {
-      transitionDuration: {
-        '400': '400ms',
-      },
-      scale: {
-        '101': '1.01',
-      },
-      height: {
-        'two-third-screen': '66vh',
-      },
-      margin: {
-        'two-third-screen': '66vh',
-      },
-    },
     fontFamily: {
       headline: ['Baloo Bhai'],
     },

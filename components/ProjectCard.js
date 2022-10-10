@@ -18,7 +18,7 @@ export default function ProjectCard({ project }) {
       <article
         className="
           group cursor-pointer overflow-hidden h-full
-          transition duration-300 ease-in-out transform hover:shadow-xl hover:scale-101
+          transition duration-300 ease-in-out transform hover:shadow-xl hover:scale-[1.01]
           rounded-3xl shadow-md
           bg-gray-100 text-gray-800"
         onClick={handleClick}>

@@ -30,23 +30,22 @@ export async function getStaticProps(context) {
 };
 
 export default function ProjectDetails({ project }) {
-  console.log('DEBUG ~ file: [slug].js ~ line 34 ~ ProjectDetails ~ project', project);
   return (
     <div className="underline-links">
       <div className="
-        absolute top-0 right-0 left-0 mb-20
-        w-full h-two-third-screen shadow-lg
+        absolute top-0 right-0 left-0
+        w-full h-[35vh] sm:h-[50vh] md:h-[60vh] shadow-lg
         transform -skew-y-3
         bg-gradient-to-r from-yellow-500 to-yellow-400">
         <div className="
-          px-5 sm:pl-10 mt-28
+          sm:pt-20 px-5 sm:pl-10 mt-28
           text-gray-800 text-center sm:text-left
           transform skew-y-3">
           <h1 className="text-mega-xl font-headline">{project.name}</h1>
           <p className="text-lg">{project.description.short}</p>
         </div>
       </div>
-      <div className="my-container mt-two-third-screen">
+      <div className="my-container mt-[35vh] sm:mt-[50vh] md:mt-[60vh]">
         <div className="grid grid-cols-2">
           <div className="col-start-1 col-span-2 md:col-span-1">
             <h1 className="font-headline">Motivations</h1>
@@ -69,11 +68,11 @@ export default function ProjectDetails({ project }) {
           <div className="col-span-2 mt-10">
             <h1 className="font-headline">Technologies used</h1>
 
-            <div className="flex justify-around flex-wrap gap-10">
+            <div className="flex justify-between flex-wrap gap-10">
               {project.technologies.map((technology, i) =>
-                <div key={i} className="flex flex-row my-2 sm:my-0 sm:w-auto">
+                <div key={i} className="flex items-center my-2 sm:my-0 sm:w-auto">
                   <Image src={`/technologies-svg/${technology[0]}.svg`} alt={technology[0]} height="50px" width="50px" />
-                  <span className="ml-3 my-auto">{technology[1]}</span>
+                  <span className="pl-3">{technology[1]}</span>
                 </div>
               )}
             </div>

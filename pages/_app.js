@@ -13,8 +13,21 @@ export default function App({ Component, pageProps }) {
       <Head>
         <title>Elliot Maisl</title>
         <link rel="icon" href="/favicon.ico" />
-        {/* TODO: More meta-data */}
         <meta name="keywords" content="elliot maisl portfolio"/>
+        <meta name="description" content="Elliot Maisl's development portfolio"/>
+        <meta name="author" content="Elliot Maisl"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="language" content="English"/>
+
+        <meta property="og:title" content="Elliot Maisl"/>
+        <meta property="og:description" content="Elliot Maisl's development portfolio"/>
+        <meta property="og:image" content="https://elliotmaisl.com/images/elliotmaisl.png"/>
+        <meta property="og:url" content="https://elliotmaisl.com"/>
+        <meta property="og:site_name" content="Elliot Maisl"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:locale" content="en_US"/>
+
         {/* Set the color metadata website attribute to our yellow */}
         <meta name="theme-color" content="#eab308" />
       </Head>

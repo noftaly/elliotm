@@ -17,13 +17,13 @@ export default function ProjectCard({ project }) {
     <>
       <article
         className="
-          group cursor-pointer overflow-hidden h-full
+          group cursor-pointer h-full
           transition duration-300 ease-in-out transform hover:shadow-xl hover:scale-[1.01]
           rounded-3xl shadow-md
           bg-gray-100 text-gray-800"
         onClick={handleClick}>
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img className="h-56 w-full object-cover" src={project.images.previewPath} alt={project.images.alt} onError={injectDefaultImage} />
+        <img className="h-56 w-full object-cover rounded-t-3xl" src={project.images.previewPath} alt={project.images.alt} onError={injectDefaultImage} />
 
         <div className="px-2 md:px-6 flex align-middle flex-col">
           <div className="flex items-center flex-wrap justify-between leading-tight my-2">

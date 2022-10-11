@@ -77,8 +77,8 @@ const projects = [
         functional bot features basic commands, such as output predefined messages or send dad-jokes, but also more
         complicated ones, such as a complex moderation module, and a doc-search module.
 
-        Since the full rewrite in TypeScript, the bot can now also be controlled via an [admin panel](https://github.com/Skript-MC/SwanDashboard)
-        which is very handy.
+        Since the full rewrite in TypeScript, the bot can now also be controlled via an
+        [admin panel](https://github.com/Skript-MC/SwanDashboard) which is very handy.
 
         I'm very proud of this project, as it allowed me to take my development skills to another level. It is mainly
         through this project that I learned JavaScript as well as many other technologies. It also forced me to make
@@ -118,7 +118,7 @@ const projects = [
     ],
     motivations: [
       'Facilitate the creation of Node.js projects',
-      'Make a CLT',
+      'Make a CLI tool',
       'Create a public npm package',
     ],
     links: {
@@ -129,9 +129,9 @@ const projects = [
       short: 'A CLI to easily create new Node.js projects with presets and complete boilerplates.',
       long: stripIndent`
         By creating Node.js projects, I got tired of having to create plenty of initial files, install a lot
-        of dependencies and configure ESLint, Babel, TypeScript, GitHub's files and workflows, npm scripts... Hence, I created this
-        utility to easily start new Node.js' projects. Just one command and a few questions, and you're ready to code
-        right away!
+        of dependencies and configure ESLint, Babel, TypeScript, GitHub's files and workflows, npm scripts... Hence, I
+        created this utility to easily start new Node.js' projects. Just one command and a few questions, and you're
+        ready to code right away!
 
         It also features a complete preset system to remember your preferences.
       `,
@@ -156,7 +156,7 @@ const projects = [
     startedAt: 'July 2018',
     technologies: [['python', 'Python']],
     motivations: [
-      'Practising Python and Tkinter',
+      'Practicing Python and Tkinter',
       'Learn OOP in Python',
       'Learn how to orchestrate a game (event loop, ticks, players...)'],
     links: {
@@ -166,8 +166,9 @@ const projects = [
       short: 'A multiplayer semi-RPG game where a knight has to retrieve treasures, being chased by a skeleton.',
       long: stripIndent`
         To practice Python and Tkinter development, I created this game, where a knight must collect all the chests
-        of each level, without getting caught by the skeleton. It is very easy to create new levels: just create a txt
-        file, then design your level with letters. You can see the file of the first level in the attached images.
+        of each level, without getting caught by the skeleton. Both are controlled by a keyboard by two different
+        players. It is very easy to create new levels: just create a txt file, then design your level with letters.
+        You can see the file of the first level in the attached images.
 
         I eventually continued working on it again because I was quite proud of the result, but not of the code. I
         though it was a good opportunity to learn OOP in Python, and decided to give it a go!
@@ -206,7 +207,7 @@ const projects = [
     ],
     motivations: [
       'Succeed my "TPE" :)',
-      'Practising Adobe Photoshop',
+      'Practicing Adobe Photoshop',
       'Learn Adobe Illustrator & Adobe Indesign',
     ],
     links: {},
@@ -247,15 +248,15 @@ const projects = [
     startedAt: 'March 2019',
     technologies: [['csharp', 'C#'], ['unity3d', 'Unity 3D']],
     motivations: [
-      'Learn how to use Unity3D',
-      'Learn the basics of C# with Unity3D',
-      'Make a simple game with Unity3D',
+      'Learn how to use Unity 3D',
+      'Learn the basics of C# with Unity 3D',
+      'Make a simple game with Unity 3D',
     ],
     links: {
       github: 'https://github.com/noftaly/minefield',
     },
     description: {
-      short: 'A 3D game where a big rolling ball has to cross a dangerous minefiled!',
+      short: 'A 3D game where a big rolling ball has to cross a dangerous minefield!',
       long: stripIndent`
         MineField is a game made with Unity 3D. Mines are randomly placed on the field at the beginning of each game.
         You have to find your way arround to go to the arrival point without touching the invisible mines! Fortunately,
@@ -330,7 +331,7 @@ const projects = [
     ],
     motivations: [
       'Learn Next.js and React',
-      'Learn how to use TailwindCSS',
+      'Learn how to use Tailwind CSS',
       'Make my own personnal website',
     ],
     links: {
@@ -344,7 +345,7 @@ const projects = [
         projects from the site itself). The second one was simpler, but made with vanilla web technologies, and I
         wanted it to be fast and to use either React or Vue. I decided to go with React & Next.js for no particular
         reason. I also decided to move away from Bootstrap to make my own CSS styles and not use pre-made models. I
-        went with TailwindCSS and I'm really happy with it!
+        went with Tailwind CSS and I'm really happy with it!
       `,
     },
     images: {

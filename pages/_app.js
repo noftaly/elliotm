@@ -33,7 +33,7 @@ export default function App({ Component, pageProps }) {
       </Head>
 
       <div className="bg-gray-50 text-gray-800">
-        <Navbar />
+        <Navbar showGradient={Component.name === 'ProjectDetails'} />
         <div className="flex flex-col min-h-screen">
           <div className="flex-grow mt-2 mb-10">
             <div className="w-full pt-20 px-4 text-md leading-normal">

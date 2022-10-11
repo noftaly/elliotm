@@ -2,11 +2,11 @@ import Link from 'next/link';
 import { useState } from 'react';
 import multiClasses from '../utils/multiClasses.js';
 
-export default function Navbar() {
+export default function Navbar({ showGradient }) {
   const [hamburgerActive, setHamburgerActive] = useState(false);
 
   return (
-    <nav id="navbar" className="fixed w-full bg-gradient-to-r from-yellow-500 to-yellow-400 z-10 top-0">
+    <nav id="navbar" className={`fixed w-full z-40 top-0 ${showGradient ? "bg-gradient-to-r from-yellow-500 to-yellow-400" : "bg-[#eab308]"}`}>
       <div className="md:max-w-4xl mx-auto flex flex-wrap items-center justify-between mt-0 py-3">
         <div className="pl-4 font-headline">
           <Link href="/"><a className="text-gray-900 no-underline hover:no-underline font-extrabold text-3xl">Elliot</a></Link>
